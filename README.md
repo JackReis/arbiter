@@ -7,7 +7,10 @@
 [![2025 Schema](https://img.shields.io/badge/2025%20Schema-100%25-success)](SKILLS_SCHEMA_2025.md)
 
 <p align="center">
-  <img src="docs/assets/arbiter-robot-toga.svg" alt="Arbiter — robot in a toga" width="320">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/arbiter-robot-toga.svg">
+    <img src="docs/assets/arbiter-council-light.jpg" alt="Arbiter — robot council in the pantheon" width="420">
+  </picture>
 </p>
 
 **Arbiter** is an A2A-native agent consensus framework delivered as a curated collection of Claude Code skill packs. Agents design, reconcile, ratify, and audit — with filesystem durability as the floor and JSON-RPC/SSE as the live wire.
