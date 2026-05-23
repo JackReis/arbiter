@@ -21,6 +21,8 @@ class AthenaeumTests(unittest.TestCase):
         self.orig_dir = os.getcwd()
         os.chdir(self.tmpdir.name)
         self.env = os.environ.copy()
+        if "AGENT_NAME" in self.env:
+            del self.env["AGENT_NAME"]
         self.env["KIMI_CLI"] = "1"
 
     def tearDown(self):
